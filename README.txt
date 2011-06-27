@@ -1,35 +1,35 @@
 Story Board
 
-História: Requisição de Simulação de Crédito
+Hist√≥ria: Requisi√ß√£o de Simula√ß√£o de Cr√©dito
 
-Sendo uma pessoa que precisa de crédito 
-Posso acessar o simulador de crédito ACME
-Pois assim saberei das opções que tenho para requisitar.
+Sendo uma pessoa que precisa de cr√©dito 
+Posso acessar o simulador de cr√©dito ACME
+Pois assim saberei das op√ß√µes que tenho para requisitar.
 
-Aceitação:
+Aceita√ß√£o:
 
-Dado que sou um usuário do site de simulação de crédito
-Quando peço uma simulação de crédito abaixo de R$500
-Então o máximo de parcelas que poderei parcelar serão de 5
+Dado que sou um usu√°rio do site de simula√ß√£o de cr√©dito
+Quando pe√ßo uma simula√ß√£o de cr√©dito abaixo de R$500
+Ent√£o o m√°ximo de parcelas que poderei parcelar ser√£o de 5
 
-Dado que sou um estagiário
-Quando peço R$500 
+Dado que sou um estagi√°rio
+Quando pe√ßo R$500 
        e tenho renda de R$800
        e indico parcelamento em 4 vezes
-Então o Sistema vai negar o empréstimo 
+Ent√£o o Sistema vai negar o empr√©stimo 
        indicando que tenho acesso apenas a 
        60% da minha renda, ou seja, R$480
 	  
-Dado que sou um funcionário de uma empresa
-Quando peço R$4200 
+Dado que sou um funcion√°rio de uma empresa
+Quando pe√ßo R$4200 
        e tenho renda de R$10000
        e indico parcelamento em 12 vezes
-Então o sistema vai permitir 
+Ent√£o o sistema vai permitir 
        e vai me indicar parcelas de R$350
 
-Dado que sou um funcionário de uma empresa
-Quando peço R$4200 
+Dado que sou um funcion√°rio de uma empresa
+Quando pe√ßo R$4200 
        e tenho renda de R$10000
        e indico parcelamento em 12 vezes
-Então o sistema vai permitir 
+Ent√£o o sistema vai permitir 
        e vai me indicar parcelas de R$350
